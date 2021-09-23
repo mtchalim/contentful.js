@@ -63,6 +63,9 @@ export interface FieldItem {
   linkType?: 'Entry' | 'Asset'
 }
 
+/**
+ * @category Entities
+ */
 export interface ContentType {
   sys: ContentTypeSys
   name: string

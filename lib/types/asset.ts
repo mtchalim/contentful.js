@@ -22,6 +22,9 @@ export interface AssetFields {
   file: AssetFile
 }
 
+/**
+ * @category Entities
+ */
 export interface Asset {
   sys: AssetSys
   fields: AssetFields
